@@ -38,7 +38,7 @@ public class Ave extends Animal{
         Ave.halcones ++;
         return halcon;
     }
-    public static Ave creaAguila(String nombre, int edad, String genero){
+    public static Ave crearAguila(String nombre, int edad, String genero){
         Ave aguila = new Ave(nombre, edad, "montañas", genero,"blanco y amarillo");
         Ave.aguilas ++;
         return aguila;

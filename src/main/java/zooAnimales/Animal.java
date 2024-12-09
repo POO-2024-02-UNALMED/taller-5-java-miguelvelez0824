@@ -31,7 +31,7 @@ public class Animal {
     public void setEdad(int newEdad){
         this.edad = newEdad;
     }
-    public int getedad(){
+    public int getEdad(){
         return this.edad;
     }    public void setHabitat(String newHabitat){
         this.habitat = newHabitat;
@@ -58,7 +58,7 @@ public class Animal {
     public String movimiento(){
         return "desplazarse";
     }
-    public String totalPorTipo(){
+    public static String totalPorTipo(){
         String msj = "Mamiferos: " + Mamifero.listado.size() + "\n" + "Aves: " + Ave.listado.size() + "\n" + "Reptiles: " + Reptil.listado.size() + "\n" + "Peces: " + Pez.listado.size() + "\n" + "Anfibios: " + Anfibio.listado.size();
         return msj;
     }
